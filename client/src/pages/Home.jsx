@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { languages } from '../translations/translations';
 import { useLanguage } from '../context/LanguageContext';
 import Navbar from '../components/Navbar';
-import ChatbotWidget from '../components/ChatbotWidget';
+import ChatbotWidget from '../components/ChatBotWidget';
 
 const Home = () => {
   const navigate = useNavigate();
